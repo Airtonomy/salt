@@ -360,6 +360,8 @@ def main(argv):  # pylint: disable=W0613
         "json",
         "-l",
         "quiet",
+        "--log-file", "/var/log/salt-ssh.log",  # TODO !!!
+        "--log-file-level", "debug",  # TODO !!!
         "-c",
         OPTIONS.saltdir,
     ]
